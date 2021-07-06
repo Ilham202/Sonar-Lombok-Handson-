@@ -21,8 +21,8 @@ public class PatientIntakeSystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PatientIntakeSystemApplication.class, args);
 		PatientAppointment patientAppointment =new PatientAppointment();
-		patientAppointment.setName("nikky");
-		patientAppointment.setAge(31);
+		patientAppointment.setName("ilham");
+		patientAppointment.setAge(21);
 		patientAppointment.setVisitingDoctor(Doctor.CARDIALOGIST);
 		patientAppointment.setAppointment(new Date());
 		clinicCalender.addPatientAppointment(patientAppointment);
